@@ -51,7 +51,7 @@ export default function Hero() {
               Shop Now
             </Link>
             <Link
-              href="/about"
+              href="/"
               className="btn bg-white text-black hover:bg-white/20 px-8 py-3 rounded-md font-medium transition-colors"
             >
               Learn More

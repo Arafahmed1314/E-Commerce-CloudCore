@@ -45,7 +45,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/categories"
+                  href="/"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Categories
@@ -53,7 +53,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/featured"
+                  href="/"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Featured
@@ -61,7 +61,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/new-arrivals"
+                  href="/"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   New Arrivals
@@ -75,7 +75,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <Link
-                  href="/about"
+                  href="/"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   About Us
@@ -83,7 +83,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/contact"
+                  href="/"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Contact
@@ -91,7 +91,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/careers"
+                  href="/"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Careers
@@ -99,7 +99,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/press"
+                  href="/"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Press
@@ -115,7 +115,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <Link
-                  href="/shipping"
+                  href="/"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Shipping & Returns
@@ -123,7 +123,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/faq"
+                  href="/"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   FAQ
@@ -131,7 +131,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/warranty"
+                  href="/"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Warranty
@@ -139,7 +139,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/privacy"
+                  href="/"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Privacy Policy
@@ -155,22 +155,13 @@ const Footer = () => {
               &copy; {new Date().getFullYear()} Refabry. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <Link
-                href="/terms"
-                className="hover:text-white transition-colors"
-              >
+              <Link href="/" className="hover:text-white transition-colors">
                 Terms of Service
               </Link>
-              <Link
-                href="/privacy"
-                className="hover:text-white transition-colors"
-              >
+              <Link href="/" className="hover:text-white transition-colors">
                 Privacy Policy
               </Link>
-              <Link
-                href="/cookie-policy"
-                className="hover:text-white transition-colors"
-              >
+              <Link href="/" className="hover:text-white transition-colors">
                 Cookie Policy
               </Link>
             </div>
