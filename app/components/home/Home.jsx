@@ -1,7 +1,5 @@
 "use client";
-
 import { useState, useEffect } from "react";
-import { useSearchParams } from "next/navigation";
 import { getProducts } from "../../utils/getProducts";
 import Hero from "./Hero";
 import ProductList from "./ProductList";
@@ -10,7 +8,6 @@ const HomePage = () => {
   const [featuredProducts, setFeaturedProducts] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
-  const searchParams = useSearchParams();
 
   useEffect(() => {
     const fetchProducts = async () => {
